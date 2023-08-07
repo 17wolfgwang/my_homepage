@@ -92,7 +92,7 @@ const Contact = (props) => {
 
         <section className="contact-form">
           <h3 className="h3 form-title">Contact Form</h3>
-          <span>Feel free to reach out to me for any other proposals, advice, or just a friendly greeting!</span>
+          <span className="h5 form-title">Feel free to reach out to me for any other proposals, advice, or just a friendly greeting!</span>
 
           <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST" className="form" data-form>
             <div className="input-wrapper">

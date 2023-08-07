@@ -8,21 +8,33 @@ const Portfolio = (props) => {
   const portfolio_data = [
     {
       type: "Web Development",
+      belong: "Personal Project",
+      title: "Time Timer MOD for chrome extension",
+      content:
+        "Time timer mod ,as knwon as 'google clock', for chrome extension version. Use it durgin surfing chrome web or watching youtube.",
+      img: "/images/portfolio/test.png",
+      tech: "JavaScript, offscreen canvas,chrome extension API",
+      link: "https://chrome.google.com/webstore/detail/time-timer-mod-for-chrome/gnoeliollaloofmielaedbhclopijlpe?hl=ko&authuser=0",
+    },
+    {
+      type: "Web Development",
       belong: "Clobbler",
       title: "Clobbler landing page",
       content:
         "Landing page for advertising tailoring company 'Clobbler', offering a diverse information about mending clothes. The website is deployed on Netlify, Connected to GA(Google Analytics)",
       img: "/images/portfolio/clobbler-landing.png",
       tech: "React, Scss, Google Analytics",
+      link: "https://sage-otter-4084f0.netlify.app/",
     },
     {
-      type: "Game Development",
-      belong: "Group Project",
-      title: "Pigeon Hunt",
+      type: "Web Development",
+      belong: "Personal Project",
+      title: "징검다리 건너기 - 오징어게임 in threeJS",
       content:
-        "Top-down shooting action game where you hunt flying pigeons in the urban cityscape.",
-      img: "/images/portfolio/pigeon-hunt.png",
-      tech: "Unity, Blender, Plastic SCM",
+        "오징어 게임에 나오는 징검다리 건너기 게임을 threeJS를 이용해 구현해 보았습니다.",
+      img: "/images/portfolio/squidgame.png",
+      tech: "threeJS, gsap",
+      link: "https://github.com/17wolfgwang/threeJS_projects/tree/main/squidGame_bridge",
     },
     {
       type: "Web Development",
@@ -32,6 +44,17 @@ const Portfolio = (props) => {
         "E-commerce website for sports goods, offering a diverse selection of products including sports wear, shoes, and balls. The website is deployed on Netlify",
       img: "/images/portfolio/dynamic.png",
       tech: "React, React Hooks, Redux, styled-components, Firebase for backend, Stripe for payment",
+      link: "https://timely-cranachan-620e09.netlify.app/",
+    },
+    {
+      type: "Game Development",
+      belong: "Group Project",
+      title: "Pigeon Hunt",
+      content:
+        "Top-down shooting action game where you hunt flying pigeons in the urban cityscape.",
+      img: "/images/portfolio/pigeon-hunt.png",
+      tech: "Unity, Blender, Plastic SCM",
+      link: "https://17wolfgwang.itch.io/prototypegame-10",
     },
     {
       type: "Web Development",
@@ -41,6 +64,7 @@ const Portfolio = (props) => {
         "Homepage that contains abstract information about marketing company 'Samil', possible to diagnose basic marketing strategy by input a few information",
       img: "/images/portfolio/samil.png",
       tech: "React,Css, Python",
+      link: "http://samil.site/"
     },
     {
       type: "Web Development",
@@ -50,6 +74,7 @@ const Portfolio = (props) => {
         "Introducing the Development Team's story, individual team member profiles, vision, and shared goals.",
       img: "/images/portfolio/integration.png",
       tech: "Vue3, Three.js, gsap",
+      link: "https://github.com/medistream-team/integration-tech"
     },
     {
       type: "Web Development",
@@ -59,6 +84,7 @@ const Portfolio = (props) => {
         "Junggo Cloud is a platform that allows users to compare prices of used products across multiple platforms and find the cheapest or most recent listings.",
       img: "/images/portfolio/jgcloud.png",
       tech: "Html, Css, JavaScript, Python, MongoDB",
+      link: "#"
     },
   ];
 
@@ -132,7 +158,7 @@ const Portfolio = (props) => {
           <ul className="blog-posts-list">
             {filteredProjects.map((item, index) => (
               <li className="blog-post-item" key={index}>
-                <a href="#">
+                <a href={item.link} target="_blank">
                   <figure className="blog-banner-box">
                     <img src={item.img} alt={item.img} loading="lazy" />
                   </figure>

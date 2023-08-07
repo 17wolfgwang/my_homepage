@@ -16,15 +16,6 @@ const NavBar = ({ onSectionClick, activeSection }) => {
         </li>
         <li className="navbar-item">
           <button
-            className={`navbar-link ${activeSection === "resume" ? "active" : ""
-              }`}
-            onClick={() => onSectionClick("resume")}
-          >
-            Resume
-          </button>
-        </li>
-        <li className="navbar-item">
-          <button
             className={`navbar-link ${activeSection === "portfolio" ? "active" : ""
               }`}
             onClick={() => onSectionClick("portfolio")}
@@ -34,13 +25,23 @@ const NavBar = ({ onSectionClick, activeSection }) => {
         </li>
         <li className="navbar-item">
           <button
+            className={`navbar-link ${activeSection === "resume" ? "active" : ""
+              }`}
+            onClick={() => onSectionClick("resume")}
+          >
+            Resume
+          </button>
+        </li>
+
+        {/* <li className="navbar-item">
+          <button
             className={`navbar-link ${activeSection === "study" ? "active" : ""
               }`}
             onClick={() => onSectionClick("study")}
           >
             Study
           </button>
-        </li>
+        </li> */}
         <li className="navbar-item">
           <button
             className={`navbar-link ${activeSection === "contact" ? "active" : ""
