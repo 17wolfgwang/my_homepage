@@ -23,25 +23,29 @@ const Main = (props) => {
     {
       title: "Web Development",
       content:
-        "Comprehensive web development clients, merging front-end and back-end technologies",
+        // "Comprehensive web development clients, merging front-end and back-end technologies",
+        "사용자 중심의 디자인을 기반으로 최적화된 성능과 효율성을 갖춘 웹사이트를 제작합니다. 최신 웹 기술과 트렌드를 활용하여 방문자에게 끊임없는 가치와 원활한 경험을 제공하고자 합니다.",
       img: "/images/icons/web development.png",
     },
     {
-      title: "Web Design",
+      title: "3D Web Design",
       content:
-        "Creative and user-centric approaches to craft visually appealing and intuitive website",
+        // "Creative and user-centric approaches to craft visually appealing and intuitive website",
+        "3D 웹 디자인을 통해 고전적인 웹 디자인을 넘어서 직관적이며 몰입감 있는 사용자 경험을 만듭니다. 복잡한 3D 그래픽을 웹 환경에 통합하여 유저들에게 생동감 있는 인터랙션과 독특한 시각적 경험을 제공합니다.",
       img: "/images/icons/web-design.png",
     },
     {
       title: "Game Development",
       content:
-        "Crafting captivating game worlds and interactive experiences using cutting-edge technologies and innovative gameplay mechanics // Unity, Blender",
+        // "Crafting captivating game worlds and interactive experiences using cutting-edge technologies and innovative gameplay mechanics // Unity, Blender",
+        "단순한 엔터테인먼트로서의 게임을 넘어, 스토리텔링과 유저의 참여를 통한 깊은 감정 연결 경험을 만들어냅니다. 저는 흥미롭고 몰입감 있는 게임을 제작하여 플레이어에게 새로운 세계를 경험하게 하고자합니다.",
       img: "/images/icons/game-development.png",
     },
     {
       title: "Mobile App Development",
       content:
-        "Building intuitive and feature-rich mobile applications for seamless user experiences across platforms, leveraging the power of modern mobile technologies",
+        // "Building intuitive and feature-rich mobile applications for seamless user experiences across platforms, leveraging the power of modern mobile technologies",
+        "사용자의 필요와 편의성을 중심으로 최적화된 앱을 제작하여 언제 어디서나 원활한 경험을 제공합니다. 현대의 빠르게 변화하는 기술 트렌드를 반영하여 효과적이고 안정적인 앱을 제공하고자 합니다.",
       img: "/images/icons/mobile-development.png",
     },
   ];
