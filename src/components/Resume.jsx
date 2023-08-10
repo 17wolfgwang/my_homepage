@@ -42,15 +42,18 @@ const Resume = (props) => {
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">
-                Korea Maritime Ocean University
+                {/* Korea Maritime Ocean University */}
+                한국해양대학교
               </h4>
               <span>2014 — 2018</span>
-              <p className="timeline-text">
-                Bachelor's degree in Marine System Engineering (B.S.)
+              <br></br>
+              <p className="h5 timeline-item-title">
+                {/* Bachelor's degree in Marine System Engineering (B.S.) */}
+                기관시스템공학부 (졸업)
               </p>
-              <p className="timeline-text">
+              {/* <p className="timeline-text">
                 (with a focus on Maritime Automous Surface Ship Major)
-              </p>
+              </p> */}
             </li>
           </ol>
         </section>
@@ -89,48 +92,55 @@ const Resume = (props) => {
             </li> */}
 
             <li className="timeline-item">
-              <h4 className="h4 timeline-item-title">Full Stack Developer</h4>
-              <span className="corp-title"><a href="https://clobbler.com">Clobbler</a></span><span>2022 — Present</span>
-              <p className="timeline-text">
-                - Responsible for the development of promotional landing pages, official websites, and applications, contributing to the overall development process including app design and planning.
-                <br></br> - Used figma to design UI/UX, and use React to build reusable components for the simulation and web.
+              <h4 className="h4 timeline-item-title">Front-end Developer</h4>
+              <span className="corp-title"><a href="https://clobbler.com">Clobbler</a></span><span>2023</span>
+              <p className="h5 timeline-item-title">
+                {/* - Responsible for the development of promotional landing pages, official websites, and applications, contributing to the overall development process including app design and planning. */}
+                옷 수선리폼 플랫폼 클로블러 홍보용 랜딩페이지 제작 참여 및 GA4 데이터 분석
+                {/* <br></br> - Used figma to design UI/UX, and use React to build reusable components for the simulation and web. */}
+                <br></br> figma를 통한 UI/UX 디자인, 반응형 웹 개발, GA4
+
               </p>
             </li>
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Frontend Developer</h4>
-              <span className="corp-title"><a href="#">Samil Corp</a></span><span>2022 - 2023</span>
-              <p className="timeline-text">
-                - Incharge of the first project for a startup, collaborating with the design and backend teams to plan and create a promotional and supplier-oriented website.
-                <br></br>- Used React.JS, Python.
-                to upload file
+              <span className="corp-title"><a href="#">Samil Corp</a></span><span>2022</span>
+              <p className="h5 timeline-item-title">
+                {/* - Incharge of the first project for a startup, collaborating with the design and backend teams to plan and create a promotional and supplier-oriented website. */}
+                서비스 홈페이지 제작 프로젝트 참여.
+                {/* <br></br>Used React.JS, Python. */}
+                <br></br>Python을 활용한 키워드 데이터 크롤링 및 chart.js를 이용한 데이터 시각화 작업
               </p>
             </li>
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Frontend Developer</h4>
               <span className="corp-title"><a href="https://www.medistream.co.kr">Medistream</a></span><span>2022</span>
-              <p className="timeline-text">
-                - Planning and developing a promotional webpage for the Integration development team. <br></br>
-                - Showcasing acquired skills in impressive frontend technologies like Three.js and GSAP. Successfully executing the first corporate project in a captivating manner.
+              <p className="h5 timeline-item-title">
+                {/* - Planning and developing a promotional webpage for the Integration development team. <br></br>
+                - Showcasing acquired skills in impressive frontend technologies like Three.js and GSAP. Successfully executing the first corporate project in a captivating manner. */}
+                개발팀 브랜딩 홈페이지 기획 및 개발 참여
+                <br></br>Three.js, gsap 라이브러리를 통한 3D 웹 구현 작업.
               </p>
             </li>
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Product Manager</h4>
-              <span className="corp-title"><a href="#">Ykang Enterprise</a></span><span>2022</span>
-              <p className="timeline-text">
-                - Based on an understanding of the company's industry, services, and customer characteristics, leading website planning team as a product manager. <br></br>
-                - Also developed online marketing strategies for effective promotion.
+              <span className="corp-title"><a href="#">Ykang Enterprise</a></span><span>2021-2022</span>
+              <p className="h5 timeline-item-title">
+                프로젝트 기획 참여 및 진행
+                <br></br>자사 홈페이지 기획 참여
               </p>
             </li>
-
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Marine Engineer</h4>
               <span className="corp-title"><a href="https://www.columbia-shipmanagement.com/">CSM(Columbia Ship Management)</a></span><span>2018 - 2021</span>
-              <p className="timeline-text">
-                - Maintain and service onboard equipment for seamless navigation, overseeing boilers, generators, and air purifiers.{" "}
-                <br></br>- Handle safety inspections and emergency management of electrical and electronic devices.
+              <p className="h5 timeline-item-title">
+                {/* - Maintain and service onboard equipment for seamless navigation, overseeing boilers, generators, and air purifiers.{" "}
+                <br></br>- Handle safety inspections and emergency management of electrical and electronic devices. */}
+                선박 유지 및 보수 작업, 선박 발전기, 보일러, 청정기 담당
+                <br></br> 비상기기 및 각종 전자/전기 기기 안전 점검 및 관리 담당
               </p>
             </li>
           </ol>

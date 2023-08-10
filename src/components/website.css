@@ -1364,6 +1364,19 @@ textarea.form-input::-webkit-resizer {
 \*-----------------------------------*/
 
 /**
+ * responsive less than 450px screen
+ */
+@media (max-width: 449px) {
+  .avatar-box img {
+    width: 80px;
+    height: 80px;
+  }
+
+}
+
+
+
+/**
  * responsive larger than 450px screen
  */
 
@@ -1383,6 +1396,11 @@ textarea.form-input::-webkit-resizer {
   .project-img,
   .blog-banner-box {
     height: auto;
+  }
+
+  .avatar-box img {
+    width: 80px;
+    height: 80px;
   }
 }
 
@@ -1469,6 +1487,7 @@ textarea.form-input::-webkit-resizer {
 
   .avatar-box img {
     width: 120px;
+    height: 120px;
   }
 
   .info-content .name {
@@ -2010,6 +2029,7 @@ textarea.form-input::-webkit-resizer {
 
   .avatar-box img {
     width: 150px;
+    height: 200px;
   }
 
   .info-content .name {

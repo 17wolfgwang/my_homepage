@@ -16,13 +16,13 @@ const Sidebar = () => {
     <aside className={`sidebar${showContacts ? " active" : ""}`} data-sidebar>
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src="/images/profile/wolf.jpg" alt="Profile_picture" width="80" />
+          <img src="/images/profile/myProfilePhoto.jpg" alt="Profile_picture" width="80" height="180" />
         </figure>
         <div className="info-content">
           <h1 className="name" title="Bomi Kim">
             Stan Jang
           </h1>
-          <p className="title">Fullstack developer</p>
+          <p className="title">Front-end developer</p>
           {/* <p className="title">Game developer</p>
           <p className="title">Soccer refree</p> */}
         </div>

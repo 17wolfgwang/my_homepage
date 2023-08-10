@@ -56,8 +56,10 @@ const Contact = (props) => {
             <h3 className="h3 form-title">Contact Form</h3>
 
             <div>
-              <div className="h2">Thank you!</div>
-              <div className="h4">I'll be in touch soon.</div>
+              {/* <div className="h2">Thank you!</div>
+              <div className="h4">I'll be in touch soon.</div> */}
+              <div className="h2">감사합니다!</div>
+              <div className="h4">빠른시일 내에 답장을 드리겠습니다.</div>
             </div>
           </section>
         </article>
@@ -92,7 +94,9 @@ const Contact = (props) => {
 
         <section className="contact-form">
           <h3 className="h3 form-title">Contact Form</h3>
-          <span className="h5 form-title">Feel free to reach out to me for any other proposals, advice, or just a friendly greeting!</span>
+          {/* <span className="h5 form-title">Feel free to reach out to me for any other proposals, advice, or just a friendly greeting!</span> */}
+          <span className="h5 form-title">어떤 제안, 조언, 피드백, 인사까지 모두 환영합니다. 편하게 연락주세요!!</span>
+
 
           <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST" className="form" data-form>
             <div className="input-wrapper">
@@ -109,7 +113,7 @@ const Contact = (props) => {
                 type="email"
                 name="email"
                 className="form-input"
-                placeholder="Email address"
+                placeholder="Your Email address"
                 required
                 data-form-input
               />
