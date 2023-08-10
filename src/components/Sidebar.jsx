@@ -20,7 +20,7 @@ const Sidebar = () => {
         </figure>
         <div className="info-content">
           <h1 className="name" title="Bomi Kim">
-            Stan Jang
+            장류광
           </h1>
           <p className="title">Front-end developer</p>
           {/* <p className="title">Game developer</p>
