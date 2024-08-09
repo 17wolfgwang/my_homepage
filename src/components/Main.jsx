@@ -23,29 +23,29 @@ const Main = (props) => {
     {
       title: "Web Development",
       content:
-        // "Comprehensive web development clients, merging front-end and back-end technologies",
-        "사용자 중심의 디자인을 기반으로 최적화된 성능과 효율성을 갖춘 웹사이트를 제작합니다. 최신 웹 기술과 트렌드를 활용하여 방문자에게 끊임없는 가치와 원활한 경험을 제공하고자 합니다.",
+        "Comprehensive web development clients, merging front-end and back-end technologies",
+      // "사용자 중심의 디자인을 기반으로 최적화된 성능과 효율성을 갖춘 웹사이트를 제작합니다. 최신 웹 기술과 트렌드를 활용하여 방문자에게 끊임없는 가치와 원활한 경험을 제공하고자 합니다.",
       img: "/images/icons/web development.png",
     },
     {
       title: "3D Web Design",
       content:
-        // "Creative and user-centric approaches to craft visually appealing and intuitive website",
-        "3D 웹 디자인을 통해 고전적인 웹 디자인을 넘어서 직관적이며 몰입감 있는 사용자 경험을 만듭니다. 복잡한 3D 그래픽을 웹 환경에 통합하여 유저들에게 생동감 있는 인터랙션과 독특한 시각적 경험을 제공합니다.",
+        "Creative and user-centric approaches to craft visually appealing and intuitive website",
+      // "3D 웹 디자인을 통해 고전적인 웹 디자인을 넘어서 직관적이며 몰입감 있는 사용자 경험을 만듭니다. 복잡한 3D 그래픽을 웹 환경에 통합하여 유저들에게 생동감 있는 인터랙션과 독특한 시각적 경험을 제공합니다.",
       img: "/images/icons/web-design.png",
     },
     {
       title: "Game Development",
       content:
-        // "Crafting captivating game worlds and interactive experiences using cutting-edge technologies and innovative gameplay mechanics // Unity, Blender",
-        "단순한 엔터테인먼트로서의 게임을 넘어, 스토리텔링과 유저의 참여를 통한 깊은 감정 연결 경험을 만들어냅니다. 저는 흥미롭고 몰입감 있는 게임을 제작하여 플레이어에게 새로운 세계를 경험하게 하고자합니다.",
+        "Crafting captivating game worlds and interactive experiences using cutting-edge technologies and innovative gameplay mechanics // Unity, Blender",
+      // "단순한 엔터테인먼트로서의 게임을 넘어, 스토리텔링과 유저의 참여를 통한 깊은 감정 연결 경험을 만들어냅니다. 저는 흥미롭고 몰입감 있는 게임을 제작하여 플레이어에게 새로운 세계를 경험하게 하고자합니다.",
       img: "/images/icons/game-development.png",
     },
     {
       title: "Mobile App Development",
       content:
-        // "Building intuitive and feature-rich mobile applications for seamless user experiences across platforms, leveraging the power of modern mobile technologies",
-        "사용자의 필요와 편의성을 중심으로 최적화된 앱을 제작하여 언제 어디서나 원활한 경험을 제공합니다. 현대의 빠르게 변화하는 기술 트렌드를 반영하여 효과적이고 안정적인 앱을 제공하고자 합니다.",
+        "Building intuitive and feature-rich mobile applications for seamless user experiences across platforms, leveraging the power of modern mobile technologies",
+      // "사용자의 필요와 편의성을 중심으로 최적화된 앱을 제작하여 언제 어디서나 원활한 경험을 제공합니다. 현대의 빠르게 변화하는 기술 트렌드를 반영하여 효과적이고 안정적인 앱을 제공하고자 합니다.",
       img: "/images/icons/mobile-development.png",
     },
   ];
@@ -112,25 +112,25 @@ const Main = (props) => {
           <h2 className="h2 article-title">About me</h2>
         </header>
         <section className="about-text">
-          {/* <p>
-            Hello! I am a web frontend developer with years of experience. I have expertise in React.js, TypeScript, Next.js, and React Native, and I am particularly 
+          <p>
+            Hello! I am a web frontend developer with years of experience. I have expertise in React.js, TypeScript, Next.js, and React Native, and I am particularly
             skilled in the React ecosystem. Additionally, I have some backend experience with Node.js and Python, allowing me to contribute to the entire development process of web applications. I am also actively involved in game development, where I excel in working with Unity to create engaging games across various platforms.
-          </p> */}
-          <p>
+          </p>
+          {/* <p>
             안녕하세요! 프론트엔드 개발자 장류광입니다. React.js, TypeScript, Next.js, React Native에 특별한 전문 지식을 통해 React 생태계에서 뛰어난 업무 능력을 가지고 있습니다. 또한, Node.js와 Python과 같은 백엔드 경험도 가지고 있어 웹 애플리케이션의 전체 개발 과정에 기여할 수 있습니다.  ThreeJS, offscreenCanavs API , Unity 등 다양한 3D 라이브러리, API, 플랫폼을 공부하고 있으며, 관련 프로젝트에도 관심이 많습니다!
-          </p>
-          {/* <p>
+          </p> */}
+          <p>
             Outside of work, I enjoy traveling, cooking, and participating as a soccer referee. I approach every project with enthusiasm, always striving for open communication and maintaining a positive attitude. I am passionate about embracing new challenges and consistently delivering high-quality results. Collaboration and effective teamwork are of utmost importance to me, as I believe they are key to achieving success.
-          </p> */}
-          <p>
-            일 외에는 여행, 요리 및 축구 심판 활동을 통해 많은 영감을 얻으려고 노력하고 있습니다. 다양한 프로젝트들을 열정적으로 참여하여 항상 소통하며 긍정적인 태도를 유지하기 위해 노력합니다. 새로운 도전을 받아들이는 것에 대한 열정을 가지고 항상 최선의 목표를 달성하기 위해 노력하고 있습니다. 개개인의 작은 프로젝트를 넘어 더 많은 사람들에게 영향을 줄 수 있는 커다란 서비스로 나아가기 위해서는 협력과 효과적인 팀워크가 성공을 이루는 핵심이라고 생각합니다.
           </p>
           {/* <p>
-            With a diverse skill set and a commitment to continuous growth, I am dedicated to problem-solving and continuously expanding my knowledge. I am eager to contribute my positive energy and collaborate with a team to create outstanding projects. I look forward to the opportunity to work together on exciting ventures.
+            일 외에는 여행, 요리 및 축구 심판 활동을 통해 많은 영감을 얻으려고 노력하고 있습니다. 다양한 프로젝트들을 열정적으로 참여하여 항상 소통하며 긍정적인 태도를 유지하기 위해 노력합니다. 새로운 도전을 받아들이는 것에 대한 열정을 가지고 항상 최선의 목표를 달성하기 위해 노력하고 있습니다. 개개인의 작은 프로젝트를 넘어 더 많은 사람들에게 영향을 줄 수 있는 커다란 서비스로 나아가기 위해서는 협력과 효과적인 팀워크가 성공을 이루는 핵심이라고 생각합니다.
           </p> */}
           <p>
-            다양한 기술을 익히고, 지속적인 성장을 위해 문제 해결, 나아가 지식의 확장을 위해 최선을 다합니다. 긍정적인 에너지로 팀에 기여하고 협력하여 흥미로운 프로젝트를 함께 완성해 나가기를 기대하고 있습니다.
+            With a diverse skill set and a commitment to continuous growth, I am dedicated to problem-solving and continuously expanding my knowledge. I am eager to contribute my positive energy and collaborate with a team to create outstanding projects. I look forward to the opportunity to work together on exciting ventures.
           </p>
+          {/* <p>
+            다양한 기술을 익히고, 지속적인 성장을 위해 문제 해결, 나아가 지식의 확장을 위해 최선을 다합니다. 긍정적인 에너지로 팀에 기여하고 협력하여 흥미로운 프로젝트를 함께 완성해 나가기를 기대하고 있습니다.
+          </p> */}
         </section>
 
         {/* Service */}

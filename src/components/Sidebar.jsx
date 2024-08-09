@@ -16,13 +16,13 @@ const Sidebar = () => {
     <aside className={`sidebar${showContacts ? " active" : ""}`} data-sidebar>
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src="/images/profile/myProfilePhoto.jpg" alt="Profile_picture" width="80" height="180" />
+          <img src="/images/profile/profile.jpg" alt="Profile_picture" width="80" height="180" />
         </figure>
         <div className="info-content">
           <h1 className="name" title="Bomi Kim">
-            장류광
+            Ryugwang Jang
           </h1>
-          <p className="title">Front-end developer</p>
+          <p className="title">Software Developer & Designer</p>
           {/* <p className="title">Game developer</p>
           <p className="title">Soccer refree</p> */}
         </div>
@@ -42,7 +42,7 @@ const Sidebar = () => {
             <div className="contact-info">
               <p className="contact-title">Email</p>
               <a href="mailto:dkzks44@gmail.com" className="contact-link">
-                dkzks44@gmail.com
+                rgjang@berkeley.edu
               </a>
             </div>
           </li>

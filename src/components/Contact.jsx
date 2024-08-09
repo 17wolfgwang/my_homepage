@@ -94,8 +94,8 @@ const Contact = (props) => {
 
         <section className="contact-form">
           <h3 className="h3 form-title">Contact Form</h3>
-          {/* <span className="h5 form-title">Feel free to reach out to me for any other proposals, advice, or just a friendly greeting!</span> */}
-          <span className="h5 form-title">어떤 제안, 조언, 피드백, 인사까지 모두 환영합니다. 편하게 연락주세요!!</span>
+          <span className="form-title">Feel free to reach out to me for any other proposals, advice, or just a friendly greeting!</span>
+          {/* <span className="h5 form-title">어떤 제안, 조언, 피드백, 인사까지 모두 환영합니다. 편하게 연락주세요!!</span> */}
 
 
           <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST" className="form" data-form>
@@ -134,7 +134,7 @@ const Contact = (props) => {
           </form>
         </section>
       </article>
-    </div>
+    </div >
   );
 };
 
